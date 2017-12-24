@@ -1,0 +1,29 @@
+body{
+  background-image:url(메인배경화면색.jpg);
+
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+#startbutton{
+  background:rgba(255,255,255,0.0);
+  border:0px;
+  background-image:url(게임시작버튼.jpg);
+  opacity:0.5;
+  width:240px;
+  height:93px;
+}
+#howbutton{
+  background:rgba(255,255,255,0.0);
+  border:0px;
+  background-image:url(게임방법버튼.jpg);
+  opacity: 0.5;
+  width:240px;
+  height:93px;
+}
+#davinci{
+  position: fixed;
+  right:0px;
+  bottom:0px;
+}

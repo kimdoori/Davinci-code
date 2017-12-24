@@ -1,0 +1,44 @@
+body{
+  background-image:url(메인배경화면색.jpg);
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-image: url(이긴화면.png);
+  width: 604px;
+  height:413px;
+}
+
+#메인메뉴{
+    background:rgba(255,255,255,0.0);
+    border:0px;
+    background-image:url(메인메뉴버튼.png);
+    width:240px;
+    height:93px;
+}
+#다시하기{
+
+      background:rgba(255,255,255,0.0);
+      border:0px;
+      background-image:url(다시하기버튼.png);
+      width:240px;
+      height:93px;
+}
+#점수미니언{
+  position: fixed;
+  bottom:10px;
+  right:80px;
+}
+#말풍선{
+  position: fixed;
+  bottom:230px;
+  right:5px;
+}
+#마지막말{
+  position: fixed;
+  bottom:320px;
+  right:35px;
+  font-family: Kristen ITC;
+  font-size: 15pt;
+}

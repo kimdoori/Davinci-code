@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>게임방법1</title>
+    <link rel="stylesheet" type="text/css" href="how.css" />
+
+    <script type="text/javascript" src="event.js">
+    </script>
+</head>
+
+<body>
+
+
+    <table id="설명" border="0" width="800px">
+        <tr>
+            <td><img src="미니언꺅.png" </td>
+                <td>
+                    <p id="title">다빈치코드는 무슨 게임일까요?</p>
+                </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+
+                <button type="button" id="메뉴" name="button" onclick="location.href = 'index.html'" onmouseover="overMenu()" onmouseout="outMenu()"></button>
+                <button type="button" id="페이지1" name="button" onclick="location.href = 'how.html'" onmouseover="overPage1()" onmouseout="outPage1()"></button>
+                <button type="button" id="페이지2" name="button" onclick="location.href = 'how2.html'" onmouseover="overPage2()" onmouseout="outPage2()"></button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p id="contents">
+                    <font size="6">
+                        다빈치코드는 타일의 색깔과 위치 등 밝혀진정보를 동원해 숫자로 구성된 비밀코드를 풀어내는 논리 추리게임입니다.
+                    </font>
+                    <ul id="목록">
+
+                        <li>타일은 총 24개로, 검은색 타일과 하얀색 타일이 있고 각각 0부터 11까지의 숫자로 구성되어있습니다.
+
+                        <li>컴퓨터는 그 중 10개의 타일을 랜덤으로 뽑습니다.
+
+                        <li>컴퓨터가 뽑은 비밀 코드를 모두 알아내면 플레이어가 이기게 됩니다.
+                        <li>
+                          <font id="명심">명심하세요!!</font>플레이어 입장에서 타일은 오른쪽에 작은수,왼쪽으로 갈수록 큰 수 순서로 배열됩니다. 만약 숫자가 같은 타일이 있다면 검은색이 오른쪽, 흰색이 왼쪽에 오게 됩니다.
+                          <br>Tip! 그러니까 검은색 타일과 하얀색 타일이 연달아 나오고 검은색 타일이 오른쪽이라면..같은 숫자일 수도 있겠죠?
+                    </ul>
+
+                </p>
+            </td>
+
+        </tr>
+    </table>
+    <div id="미니언뒷모습">
+        <img src="미니언뒷모습.png" />
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body{
+  background-color: #ffffc8;
+
+}
+#메뉴 {
+    background: rgba(255, 255, 255, 0.0);
+    background-image: url(menu.png);
+    opacity: 0.7;
+    width: 80px;
+    height: 54px;
+}
+
+#명심 {
+    font-family: MDGaesung;
+    font-size: 20pt;
+    color: red;
+}
+
+#페이지1 {
+    background: rgba(255, 255, 255, 0.0);
+    background-image: url(1page.png);
+    opacity: 0.7;
+    width: 80px;
+    height: 54px;
+}
+
+#페이지2 {
+    background: rgba(255, 255, 255, 0.0);
+    background-image: url(2page.png);
+    opacity: 0.7;
+    width: 80px;
+    height: 54px;
+}
+
+#목록 {
+    list-style-image: url(바나나하나.png);
+    font-family: MDGaesung;
+    font-size: 15pt;
+    color: black;
+}
+
+#목록2 {
+    font-family: MDGaesung;
+    font-size: 15pt;
+    color: black;
+}
+
+#설명 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#미니언뒷모습 {
+  position: fixed;
+  opacity: 0.3;
+  left:30%;
+  bottom: 0px;
+}
+
+#title {
+    font-family: MDGaesung;
+    font-size: 30pt;
+    color: skyblue;
+}
+
+#contents {
+    font-family: MDGaesung;
+    font-size: 15pt;
+    color: black;
+}

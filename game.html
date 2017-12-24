@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>minions davinci</title>
+    <link rel="stylesheet" type="text/css" href="game.css" />
+    <script type="text/javascript" src="game.js">
+    </script>
+    <script type="text/javascript" src="event.js">
+    </script>
+
+</head>
+
+<body>
+
+    <form name="good">
+        <div id="점수판">
+            <img src="점수.png" position="right:100px;" />
+        </div>
+        <div id="점수">
+            <p id="score">0</p>
+        </div>
+
+        <table id="table" border="0" width="100%" height="252px">
+            <tr valign="middle">
+                <td align="center"><img src="목숨.png" /></td>
+                <td colspan="10" height="40px" id="바나나칸">
+                    <img id="바나나덮개" src="목숨덮개.jpg" />
+
+
+                </td>
+                <tr>
+                    <td colspan="12" height="50px"></td>
+                </tr>
+
+                <tr valign="middle" align="center">
+                    <td width="70px" height="100px" rowspan="2">
+                        <img src="코드를고르세요.png" />
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da9" type="button" onclick="davinchi_9()"></Button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da8" type="button" onclick="davinchi_8();"></Button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da7" type="button" onclick="davinchi_7();"></Button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da6" type="button" onclick="davinchi_6();"></button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da5" type="button" onclick="davinchi_5();"></Button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da4" type="button" onclick="davinchi_4();"></Button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da3" type="button" onclick="davinchi_3();"></Button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da2" type="button" onclick="davinchi_2();"></Button>
+
+                    </td>
+
+                    <td valign="bottom" width="75px">
+                        <Button id="da1" type="button" onclick="davinchi_1();"></Button>
+
+                    </td>
+                    <td valign="bottom" width="75px">
+                        <Button id="da0" type="button" onclick="davinchi_0();"></Button>
+
+                    </td>
+                </tr>
+                <tr height="100px" align="center">
+                    <td>
+                        <p id="n9"></p>
+                    </td>
+                    <td>
+                        <p id="n8"></p>
+                    </td>
+                    <td>
+                        <p id="n7"></p>
+                    </td>
+                    <td>
+                        <p id="n6"></p>
+                    </td>
+                    <td>
+                        <p id="n5"></p>
+                    </td>
+                    <td>
+                        <p id="n4"></p>
+                    </td>
+                    <td>
+                        <p id="n3"></p>
+                    </td>
+                    <td>
+                        <p id="n2"></p>
+                    </td>
+                    <td>
+                        <p id="n1"></p>
+                    </td>
+                    <td>
+                        <p id="n0"></p>
+                    </td>
+                </tr>
+
+                <tr height="50px" valign="middle">
+
+                    <td align="center">
+                        <img src="색을골라주세요.png" />
+                    </td>
+                    <td colspan="10">
+                        &nbsp;
+                        <button id="co0" type="button" name="color0" value="0" onclick="Color0();"></button>
+                        <button id="co1" type="button" name="color1" value="1" onclick="Color1();"></button>
+                    </td>
+                </tr>
+                <tr valign="middle">
+                    <td align="center">
+                        <img src="숫자를 골라주세요.png" />
+                    </td>
+
+                    <td colspan="10">
+                        <font id="맞출숫자">
+                            <input type="radio" id="radio" name="number" value="0">0
+                            <input type="radio" id="radio" name="number" value="1">1
+                            <input type="radio" id="radio" name="number" value="2">2
+                            <input type="radio" id="radio" name="number" value="3">3
+                            <input type="radio" id="radio" name="number" value="4">4
+                            <input type="radio" id="radio" name="number" value="5">5
+                            <br>
+
+                            <input type="radio" id="radio" name="number" value="6">6
+                            <input type="radio" id="radio" name="number" value="7">7
+                            <input type="radio" id="radio" name="number" value="8">8
+                            <input type="radio" id="radio" name="number" value="9">9
+                            <input type="radio" id="radio" name="number" value="10">10
+                            <input type="radio" id="radio" name="number" value="11">11</font>
+
+                    </td>
+                    <tr valign="middle">
+                        <td align="center">
+                            <img src="눌러주세요.png" />
+                        </td>
+                        <td colspan="10">
+                            <!-- <Button type="button" onclick="davinchi();">시작하기</Button> -->
+
+                            &nbsp;
+
+                            <button type="button" id="correct" name="game" onclick="Game();" onmouseover="overCB()" onmouseout="outCB()"></button>
+
+                        </td>
+                    </tr>
+        </table>
+    </form>
+    <div id="곰돌이">
+        <button type="button" id="곰돌이미니언" name="button" onclick="location.href = 'index.html' " onmouseover="overBM()" onmouseout="outBM()"></button>
+    </div>
+
+
+    <div id="말풍선">
+        <img src="말풍선.png" />
+    </div>
+
+    <div id="타이머"></div>
+
+
+
+
+</body>
+
+</html>
